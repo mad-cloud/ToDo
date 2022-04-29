@@ -1,0 +1,26 @@
+.list{
+    display:inline-block;
+}
+.add{
+    display:inline-block;
+    margin-left: 700px;
+}
+.fa-solid{
+    color:blue;
+    font-size:24px;
+}
+.fa-regular{
+    color:orangered;
+    font-size: 24px;
+}
+#parent{
+    display:flex;
+    flex-flow:row wrap;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+.child{
+    height:300px;
+    width:200px;
+    border:2px solid orangered;
+}
